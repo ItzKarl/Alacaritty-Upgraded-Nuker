@@ -300,7 +300,7 @@ if __name__ == "__main__":
     clear()
     client = Linux(
         token=input("%s[%s-%s] %sToken%s:%s " % (red, reset, red, reset, red, reset)),
-        bot=True,
+        bot=False,
         guild=input("%s[%s-%s] %sGuild%s:%s " % (red, reset, red, reset, red, reset)),       
         proxies=False
     )
